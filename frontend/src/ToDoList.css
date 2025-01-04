@@ -1,0 +1,61 @@
+.ListToDoLists .back {
+    padding: 0.5em 1em;
+    margin: 1em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dee2e6; 
+    border-radius: 8px; 
+    background-color: #f8f9fa; 
+    color: #212529; 
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.ListToDoLists .back:hover {
+    background-color: #e9ecef; 
+    color: #0d6efd; 
+}
+
+
+.ToDoLists .item {
+    border: 1px solid #dee2e6; 
+    padding: 1em;
+    margin: 1em 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 8px; 
+    background-color: #f8f9fa; 
+    transition: box-shadow 0.3s ease, background-color 0.3s ease; 
+}
+
+.ToDoLists .item:hover {
+    background-color: #e9ecef; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.ToDoLists .label {
+    margin-left: 1ex;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #212529; 
+}
+
+
+.ToDoLists .checked .label {
+    text-decoration: line-through;
+    color: #adb5bd;
+}
+
+
+.ToDoLists .label{
+    margin-left: 1ex;
+}
+
+.ToDoLists .checked .label{
+    text-decoration: line-through;
+    color: lightgray
+}

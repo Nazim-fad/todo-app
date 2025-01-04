@@ -1,0 +1,30 @@
+.ListToDoLists .summary {
+    border: 1px solid #dee2e6; 
+    padding: 1em;
+    margin: 1em 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 8px; 
+    background-color: #f8f9fa; 
+    transition: box-shadow 0.3s ease, background-color 0.3s ease; 
+}
+
+.ListToDoLists .summary:hover {
+    background-color: #e9ecef; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.ListToDoLists .count {
+    padding-left: 1ex;
+    color: #6f42c1; 
+    font-size: 0.9rem; 
+    font-weight: 500; 
+}
+
+
+.ListToDoLists .summary .flex {
+    flex-grow: 1;
+    margin-right: 1em;
+}
